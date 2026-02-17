@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillBridge Academy | Course Registration</title>
+    <meta name="description" content="Register for certification programs at SkillBridge Academy. Learn and grow with expert-led courses.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <h1>SkillBridge Academy</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Courses</a> |
+            <a href="#">Certifications</a> |
+            <a href="#">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Course Introduction</h2>
+
+        
+            <label>Enrollment Progress:</label>
+            <progress value="60" max="100"></progress>
+            <p>60% Seats Filled</p>
+
+        
+            <video width="200" height="200" controls poster="course-poster.jpg">
+                <source src="Adiyogi.mp4" type="video/mp4">
+                <source src="intro.webm" type="video/webm">
+                
+            
+                <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English" default>
+
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <hr>
+
+    
+        <section>
+            <h2>Register for Certification Program</h2>
+
+            <form action="#" method="post">
+
+            
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                <br><br>
+
+    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter valid email">
+                <br><br>
+
+            
+                <label for="course">Select Course:</label><br>
+                <input list="course-list" id="course" name="course" required placeholder="Type course name">
+
+                <datalist id="course-list">
+                    <option value="Full Stack Web Development">
+                    <option value="Data Science with Python">
+                    <option value="Java Backend Development">
+                    <option value="Cloud Computing">
+                    <option value="Cyber Security">
+                </datalist>
+                <br><br>
+
+
+                <label for="batch">Select Batch Month:</label><br>
+                <input type="month" id="batch" name="batch" required>
+                <br><br>
+
+        
+                <label for="session">Preferred Session Timing:</label><br>
+                <input type="time" id="session" name="session" required>
+                <br><br>
+
+                <label for="skill">Rate Your Skill Level (0-10):</label><br>
+                <input type="range" id="skill" name="skill" min="0" max="10" step="1" required>
+                <br>
+
+                <p>Skill Level Indicator:</p>
+                <meter min="0" max="10" value="5"></meter>
+                <br><br>
+
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I confirm that I have watched the introduction video.
+                </label>
+                <br><br>
+
+                <input type="submit" value="Enroll Now">
+                <input type="reset" value="Clear Form">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <address>
+            SkillBridge Academy <br>
+            Bengaluru, India <br>
+            Email: support@skillbridge.com <br>
+            Phone: +91 9876543210
+        </address>
+        <p>&copy; 2026 SkillBridge Academy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
