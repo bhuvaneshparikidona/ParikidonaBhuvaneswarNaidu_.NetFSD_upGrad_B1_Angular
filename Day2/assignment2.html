@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CityCare Hospital | Appointment Booking</title>
+    <meta name="description" content="Book appointments online at CityCare Hospital with your preferred department and doctor.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <h1 style="text-align: center;">CityCare Hospital</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Departments</a> |
+            <a href="#">Doctors</a> |
+            <a href="#">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Online Appointment Booking</h2>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required minlength="3" placeholder="Enter full name">
+                <br><br>
+
+            
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" required min="0" max="120">
+                <br><br>
+
+                
+                <label>Gender:</label><br>
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+                <br><br>
+
+                
+                <label for="department">Select Department:</label><br>
+                <input list="dept-list" id="department" name="department" required placeholder="Type department name">
+
+                <datalist id="dept-list">
+                    <option value="Cardiology">
+                    <option value="Neurology">
+                    <option value="Orthopedics">
+                    <option value="Pediatrics">
+                    <option value="Dermatology">
+                    <option value="General Medicine">
+                </datalist>
+                <br><br>
+
+                
+                <label for="doctor">Choose Doctor:</label><br>
+                <input list="doctor-list" id="doctor" name="doctor" required placeholder="Select or type doctor name">
+
+                <datalist id="doctor-list">
+                    <option value="Dr. Rajesh Kumar">
+                    <option value="Dr. Anjali Sharma">
+                    <option value="Dr. Vikram Reddy">
+                    <option value="Dr. Meena Gupta">
+                </datalist>
+                <br><br>
+
+                
+                <label for="date">Appointment Date:</label><br>
+                <input type="date" id="date" name="date" required min="2026-01-01">
+                <br><br>
+
+                
+                <label>
+                    <input type="checkbox" name="emergency">
+                    Mark as Emergency Case
+                </label>
+                <br><br>
+
+            
+                <label for="time">Preferred Time:</label><br>
+                <input type="time" id="time" name="time" required>
+                <br><br>
+
+            
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       required
+                       pattern="[0-9]{10}"
+                       maxlength="10"
+                       placeholder="Enter 10-digit phone number">
+                <br><br>
+
+                
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter valid email">
+                <br><br>
+
+                
+                <label for="reports">Upload Medical Reports:</label><br>
+                <input type="file"
+                       id="reports"
+                       name="reports"
+                       multiple
+                       accept=".pdf,.jpg,.png,.doc,.docx">
+                <br><br>
+
+                
+                <input type="submit" value="Book Appointment">
+                <input type="reset" value="Clear Form">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <address>
+            CityCare Hospital <br>
+            123 Health Street, Bengaluru <br>
+            Phone: +91 9876543210 <br>
+            Email: support@citycarehospital.com
+        </address>
+        <p>&copy; 2026 CityCare Hospital. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

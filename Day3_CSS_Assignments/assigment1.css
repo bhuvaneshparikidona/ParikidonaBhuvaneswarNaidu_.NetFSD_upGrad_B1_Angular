@@ -1,0 +1,95 @@
+/* Element Selector */
+h1 {
+    color: #004080;
+}
+
+/* Group Selector */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4faff;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    background-color: #cce6ff;
+    padding: 40px;
+    text-align: center;
+}
+
+.banner button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Pseudo-class */
+button:hover {
+    background-color: #004080;
+    cursor: pointer;
+}
+
+/* Services Section */
+.services {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Descendant Selector */
+.services p {
+    color: #333;
+}
+
+/* Service Card - Box Model Practice */
+.service-card {
+    background-color: white;
+    padding: 20px;             
+    margin: 15px;               
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+/* ID Selector */
+#contact {
+    background-color: #e6f2ff;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    border: 2px solid #0073e6;
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

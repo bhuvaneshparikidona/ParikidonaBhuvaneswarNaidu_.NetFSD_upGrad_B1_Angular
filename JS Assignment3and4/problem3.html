@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Logger</title>
+</head>
+<body onload="loadLocations()">
+
+<h2>Location Logger</h2>    
+
+<button onclick="getLocation()">Get My Location</button>
+
+<p id="location"></p>
+
+<h3>Location History</h3>
+<ul id="history"></ul>
+
+<script>
+
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+}
+
+function successCallback(position) {
+    let lat = position.coords.latitude;
+    let lon = position.coords.longitude;
+
+    document.getElementById("location").innerText =
+        "Latitude: " + lat + " , Longitude: " + lon;
+
+    let locations = JSON.parse(localStorage.getItem("locations")) || [];
+
+    locations.unshift({latitude: lat, longitude: lon, time: new Date().toLocaleString()});
+
+    if (locations.length > 5) {
+        locations.pop();
+    }
+
+    localStorage.setItem("locations", JSON.stringify(locations));
+
+    loadLocations();
+}
+
+function errorCallback(error) {
+    if (error.code === 1)
+        alert("Permission Denied");
+    else if (error.code === 2)
+        alert("Location Unavailable");
+    else if (error.code === 3)
+        alert("Timeout");
+}
+
+function loadLocations() {
+    let locations = JSON.parse(localStorage.getItem("locations")) || [];
+    let history = document.getElementById("history");
+    history.innerHTML = "";
+
+    locations.forEach(loc => {
+        let li = document.createElement("li");
+        li.innerText = loc.time + " - " + loc.latitude + ", " + loc.longitude;
+        history.appendChild(li);
+    });
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+    margin: 0 15px;
+    font-weight: 900;
+}
+
+/* Pseudo-class li:first-child */
+nav ul li:first-child {
+    color: white;
+    
+}
+
+/* Hero Section (ID Selector) */
+#hero {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+/* Course Section Layout using Flexbox */
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+/* Course Card (Class Selector) */
+.course {
+    width: 250px;             
+    border: 2px solid #ddd;    
+    padding: 20px;             
+    margin: 15px;             
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Child Selector */
+.course > h3 {
+    color: #4CAF50;
+}
+
+/* Adjacent Sibling Selector */
+h3 + p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Button Styling */
+.course button {
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover Effect (Pseudo-class) */
+.course:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+/* a:hover example */
+a:hover {
+    color: red;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Bonus Challenge */
+.course:first-child {
+    background-color: #e3f2fd;
+}
+
+.course:last-child {
+    background-color: #fff3e0;
+}
