@@ -1,0 +1,14 @@
+E:\Cognizant_Training\C_Sharp\Assignment1\bin\Debug\net10.0\Assignment1.exe
+E:\Cognizant_Training\C_Sharp\Assignment1\bin\Debug\net10.0\Assignment1.deps.json
+E:\Cognizant_Training\C_Sharp\Assignment1\bin\Debug\net10.0\Assignment1.runtimeconfig.json
+E:\Cognizant_Training\C_Sharp\Assignment1\bin\Debug\net10.0\Assignment1.dll
+E:\Cognizant_Training\C_Sharp\Assignment1\bin\Debug\net10.0\Assignment1.pdb
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.AssemblyInfoInputs.cache
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.AssemblyInfo.cs
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.csproj.CoreCompileInputs.cache
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.dll
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\refint\Assignment1.dll
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.pdb
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\Assignment1.genruntimeconfig.cache
+E:\Cognizant_Training\C_Sharp\Assignment1\obj\Debug\net10.0\ref\Assignment1.dll
