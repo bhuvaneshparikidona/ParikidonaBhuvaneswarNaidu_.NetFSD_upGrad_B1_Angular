@@ -1,0 +1,6 @@
+Student Name: Sathya
+Roll Number: 23
+Marks: 90, 90, 90
+Total: 270
+Average: 90
+Grade: A

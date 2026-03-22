@@ -1,0 +1,14 @@
+D:\C#\FileHandlingAssignment\bin\Debug\net10.0\FileHandlingAssignment.exe
+D:\C#\FileHandlingAssignment\bin\Debug\net10.0\FileHandlingAssignment.deps.json
+D:\C#\FileHandlingAssignment\bin\Debug\net10.0\FileHandlingAssignment.runtimeconfig.json
+D:\C#\FileHandlingAssignment\bin\Debug\net10.0\FileHandlingAssignment.dll
+D:\C#\FileHandlingAssignment\bin\Debug\net10.0\FileHandlingAssignment.pdb
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.AssemblyInfoInputs.cache
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.AssemblyInfo.cs
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.csproj.CoreCompileInputs.cache
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.dll
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\refint\FileHandlingAssignment.dll
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.pdb
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\FileHandlingAssignment.genruntimeconfig.cache
+D:\C#\FileHandlingAssignment\obj\Debug\net10.0\ref\FileHandlingAssignment.dll
